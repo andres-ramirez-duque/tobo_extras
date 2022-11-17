@@ -10,4 +10,5 @@
 
 On Jetson Nano, open a terminal:
 
+    $ cd ~/usrlib
     $ git clone https://github.com/andres-ramirez-duque/tobo_extras.git
