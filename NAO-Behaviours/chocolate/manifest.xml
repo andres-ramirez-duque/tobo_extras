@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package version="0.0.0" installOnlyAtStartup="false" uuid="saxophone">
+<package version="0.0.0" uuid="chocolate" installOnlyAtStartup="false">
  <names>
-  <name lang="en_US">Saxophone</name>
+  <name lang="en_US">chocolate</name>
  </names>
  <supportedLanguages>
   <language>en_US</language>

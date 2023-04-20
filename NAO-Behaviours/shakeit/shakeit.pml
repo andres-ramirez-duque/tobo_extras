@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Package name="Macarena_2" format_version="5">
+<Package name="shakeit" format_version="5">
     <Manifest src="manifest.xml" />
     <BehaviorDescriptions>
         <BehaviorDescription name="behavior" src="behavior_1" xar="behavior.xar" />
     </BehaviorDescriptions>
     <Dialogs />
     <Resources>
-        <File name="macarena_transilvania_1m" src="macarena_transilvania_1m.mp3" />
+        <File name="shake_it_off_1m" src="shake_it_off_1m.mp3" />
     </Resources>
     <Topics />
     <IgnoredPaths />

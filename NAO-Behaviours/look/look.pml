@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Package name="Macarena_2" format_version="5">
+<Package name="look" format_version="5">
     <Manifest src="manifest.xml" />
     <BehaviorDescriptions>
         <BehaviorDescription name="behavior" src="behavior_1" xar="behavior.xar" />
     </BehaviorDescriptions>
     <Dialogs />
     <Resources>
-        <File name="macarena_transilvania_1m" src="macarena_transilvania_1m.mp3" />
+        <File name="made_you_look_1m" src="made_you_look_1m.mp3" />
     </Resources>
     <Topics />
     <IgnoredPaths />
