@@ -3707,7 +3707,7 @@ class MyClass(GeneratedClass):
               <Resource name="Standing" type="Lock" timeout="1" />
               <Resource name="All motors" type="Lock" timeout="1" />
             </Box>
-            <Box name="Stand Up" id="22" localization="8" tooltip="the robot tries to stand up from any position for a number of tries.&#x0A;&#x0A;Note: The number of tries can be set in parameters." x="600" y="684">
+            <Box name="Stand Up" id="22" localization="8" tooltip="the robot tries to stand up from any position for a number of tries.&#x0A;&#x0A;Note: The number of tries can be set in parameters." x="619" y="37">
               <bitmap>media/images/box/movement/stand.png</bitmap>
               <script language="4">
                 <content>
@@ -3784,10 +3784,9 @@ class MyClass(GeneratedClass):
                   </BehaviorKeyframe>
                 </BehaviorLayer>
               </Timeline>
-              <Resource name="All motors" type="Lock" timeout="0" />
+              <Resource name="All motors" type="Lock" timeout="3" />
             </Box>
             <Link inputowner="1" indexofinput="2" outputowner="0" indexofoutput="2" />
-            <Link inputowner="0" indexofinput="4" outputowner="1" indexofoutput="4" />
             <Link inputowner="6" indexofinput="2" outputowner="0" indexofoutput="2" />
             <Link inputowner="30" indexofinput="2" outputowner="29" indexofoutput="4" />
             <Link inputowner="12" indexofinput="2" outputowner="11" indexofoutput="4" />
@@ -3812,7 +3811,8 @@ class MyClass(GeneratedClass):
             <Link inputowner="51" indexofinput="2" outputowner="19" indexofoutput="4" />
             <Link inputowner="25" indexofinput="2" outputowner="51" indexofoutput="4" />
             <Link inputowner="20" indexofinput="2" outputowner="25" indexofoutput="4" />
-            <Link inputowner="22" indexofinput="2" outputowner="20" indexofoutput="4" />
+            <Link inputowner="22" indexofinput="2" outputowner="1" indexofoutput="4" />
+            <Link inputowner="0" indexofinput="4" outputowner="22" indexofoutput="4" />
           </Diagram>
         </BehaviorKeyframe>
       </BehaviorLayer>

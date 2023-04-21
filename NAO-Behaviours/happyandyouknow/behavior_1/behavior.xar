@@ -4583,7 +4583,7 @@ class MyClass(GeneratedClass):
               <Resource name="Standing" type="Lock" timeout="1" />
               <Resource name="All motors" type="Lock" timeout="1" />
             </Box>
-            <Box name="Stand Up" id="18" localization="8" tooltip="the robot tries to stand up from any position for a number of tries.&#x0A;&#x0A;Note: The number of tries can be set in parameters." x="622" y="1075">
+            <Box name="Stand Up" id="18" localization="8" tooltip="the robot tries to stand up from any position for a number of tries.&#x0A;&#x0A;Note: The number of tries can be set in parameters." x="673" y="22">
               <bitmap>media/images/box/movement/stand.png</bitmap>
               <script language="4">
                 <content>
@@ -4660,7 +4660,7 @@ class MyClass(GeneratedClass):
                   </BehaviorKeyframe>
                 </BehaviorLayer>
               </Timeline>
-              <Resource name="All motors" type="Lock" timeout="0" />
+              <Resource name="All motors" type="Lock" timeout="3" />
             </Box>
             <Box name="BothHandsBumpWithBump_01 (3)" id="29" localization="8" tooltip="ID : #01B 0001&#x0A;&#x0A;===================&#x0A;&#x0A;Tags : &#x0A;- Me&#x0A;- You&#x0A;- Yourself&#x0A;- Yours&#x0A;&#x0A;===================&#x0A;&#x0A;Common dialog : Yes&#x0A;&#x0A;===================&#x0A;&#x0A;Start stance : Center&#x0A;End stance : Center" x="464" y="1078">
               <bitmap>media/images/box/movement/move.png</bitmap>
@@ -4987,7 +4987,7 @@ class MyClass(GeneratedClass):
                     <Diagram />
                   </BehaviorKeyframe>
                 </BehaviorLayer>
-                <ActuatorList model="Nao">
+                <ActuatorList model="nao">
                   <ActuatorCurve name="value" actuator="HeadPitch" mute="0" unit="0">
                     <Key frame="15" value="-8.35212" />
                     <Key frame="24" value="-8.35212" />
@@ -5580,7 +5580,6 @@ class MyClass(GeneratedClass):
               </Timeline>
             </Box>
             <Link inputowner="1" indexofinput="2" outputowner="0" indexofoutput="2" />
-            <Link inputowner="0" indexofinput="4" outputowner="1" indexofoutput="4" />
             <Link inputowner="55" indexofinput="2" outputowner="16" indexofoutput="4" />
             <Link inputowner="14" indexofinput="2" outputowner="55" indexofoutput="4" />
             <Link inputowner="116" indexofinput="2" outputowner="17" indexofoutput="4" />
@@ -5621,7 +5620,8 @@ class MyClass(GeneratedClass):
             <Link inputowner="15" indexofinput="2" outputowner="40" indexofoutput="4" />
             <Link inputowner="41" indexofinput="2" outputowner="21" indexofoutput="4" />
             <Link inputowner="53" indexofinput="2" outputowner="41" indexofoutput="4" />
-            <Link inputowner="18" indexofinput="2" outputowner="29" indexofoutput="4" />
+            <Link inputowner="18" indexofinput="2" outputowner="1" indexofoutput="4" />
+            <Link inputowner="0" indexofinput="4" outputowner="18" indexofoutput="4" />
           </Diagram>
         </BehaviorKeyframe>
       </BehaviorLayer>

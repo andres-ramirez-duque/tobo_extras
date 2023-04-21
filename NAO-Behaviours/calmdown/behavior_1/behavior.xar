@@ -3065,7 +3065,7 @@ class MyClass(GeneratedClass):
               <Resource name="Standing" type="Lock" timeout="1" />
               <Resource name="All motors" type="Lock" timeout="1" />
             </Box>
-            <Box name="Stand Up" id="5" localization="8" tooltip="the robot tries to stand up from any position for a number of tries.&#x0A;&#x0A;Note: The number of tries can be set in parameters." x="751" y="594">
+            <Box name="Stand Up" id="5" localization="8" tooltip="the robot tries to stand up from any position for a number of tries.&#x0A;&#x0A;Note: The number of tries can be set in parameters." x="592" y="19">
               <bitmap>media/images/box/movement/stand.png</bitmap>
               <script language="4">
                 <content>
@@ -3142,7 +3142,7 @@ class MyClass(GeneratedClass):
                   </BehaviorKeyframe>
                 </BehaviorLayer>
               </Timeline>
-              <Resource name="All motors" type="Lock" timeout="0" />
+              <Resource name="All motors" type="Lock" timeout="3" />
             </Box>
             <Link inputowner="1" indexofinput="2" outputowner="0" indexofoutput="2" />
             <Link inputowner="10" indexofinput="2" outputowner="0" indexofoutput="2" />
@@ -3157,7 +3157,7 @@ class MyClass(GeneratedClass):
             <Link inputowner="3" indexofinput="2" outputowner="7" indexofoutput="4" />
             <Link inputowner="8" indexofinput="2" outputowner="11" indexofoutput="4" />
             <Link inputowner="2" indexofinput="2" outputowner="8" indexofoutput="4" />
-            <Link inputowner="5" indexofinput="2" outputowner="6" indexofoutput="4" />
+            <Link inputowner="5" indexofinput="2" outputowner="1" indexofoutput="4" />
             <Link inputowner="0" indexofinput="4" outputowner="5" indexofoutput="4" />
           </Diagram>
         </BehaviorKeyframe>
