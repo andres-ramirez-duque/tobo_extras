@@ -6,7 +6,7 @@
     </BehaviorDescriptions>
     <Dialogs />
     <Resources>
-        <File name="shake_it_off_1m" src="shake_it_off_1m.mp3" />
+        <File name="shake_it_off_fadeout" src="shake_it_off_fadeout.mp3" />
     </Resources>
     <Topics />
     <IgnoredPaths />

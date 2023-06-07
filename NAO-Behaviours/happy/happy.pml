@@ -6,8 +6,8 @@
     </BehaviorDescriptions>
     <Dialogs />
     <Resources>
-        <File name="happy_1m" src="happy_1m.mp3" />
         <File name="camera1" src="behavior_1/camera1.ogg" />
+        <File name="happy_fadeout" src="happy_fadeout.mp3" />
     </Resources>
     <Topics />
     <IgnoredPaths />

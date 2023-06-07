@@ -6,7 +6,7 @@
     </BehaviorDescriptions>
     <Dialogs />
     <Resources>
-        <File name="calm_down_1m" src="calm_down_1m.mp3" />
+        <File name="calm_down_fadeout" src="calm_down_fadeout.mp3" />
     </Resources>
     <Topics />
     <IgnoredPaths />

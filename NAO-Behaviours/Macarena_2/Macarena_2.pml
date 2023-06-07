@@ -6,7 +6,7 @@
     </BehaviorDescriptions>
     <Dialogs />
     <Resources>
-        <File name="macarena_transilvania_1m" src="macarena_transilvania_1m.mp3" />
+        <File name="Macarena_fadeout" src="Macarena_fadeout.mp3" />
     </Resources>
     <Topics />
     <IgnoredPaths />

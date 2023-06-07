@@ -6,7 +6,7 @@
     </BehaviorDescriptions>
     <Dialogs />
     <Resources>
-        <File name="made_you_look_1m" src="made_you_look_1m.mp3" />
+        <File name="made_you_look_fadeout" src="made_you_look_fadeout.mp3" />
     </Resources>
     <Topics />
     <IgnoredPaths />

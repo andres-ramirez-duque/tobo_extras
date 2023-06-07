@@ -13,7 +13,7 @@
         <File name="mikhael-landscape-paisaje" src="behavior_1/sounds/mikhael-landscape-paisaje.ogg" />
         <File name="vacuum1" src="behavior_1/vacuum1.ogg" />
         <File name="elephant" src="behavior_1/elephant.ogg" />
-        <File name="bruno_1m" src="bruno_1m.mp3" />
+        <File name="bruno_fadeout" src="bruno_fadeout.mp3" />
     </Resources>
     <Topics />
     <IgnoredPaths />
