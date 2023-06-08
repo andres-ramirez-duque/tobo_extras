@@ -42,7 +42,7 @@
               <Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Starts the music." id="2" />
               <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Stops the music." id="3" />
               <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished or stopped." id="4" />
-              <Parameter name="File name" inherits_from_parent="0" content_type="4" value="/../guitar_1m.mp3" default_value="" tooltip="Name of the file you want to play.&#x0A;&#x0A;Note: You can click on the folder icon to browse the project content or import&#x0A;new files to the project." id="5" />
+              <Parameter name="File name" inherits_from_parent="0" content_type="4" value="/../guitar_fadeout.mp3" default_value="" tooltip="Name of the file you want to play.&#x0A;&#x0A;Note: You can click on the folder icon to browse the project content or import&#x0A;new files to the project." id="5" />
               <Parameter name="Begin position (s)" inherits_from_parent="0" content_type="2" value="0" default_value="0" min="0" max="600" tooltip="Position in seconds where the playing must start." id="6" />
               <Parameter name="Volume (%)" inherits_from_parent="0" content_type="1" value="100" default_value="100" min="0" max="100" tooltip="Volume the file is played with." id="7" />
               <Parameter name="Balance L/R" inherits_from_parent="0" content_type="2" value="0" default_value="0" min="-1" max="1" tooltip="Value which determines if the sound is played more on the robot&apos;s left or right.&#x0A;You can particularly set it to:&#x0A;- -1 to play only on the left loudspeaker.&#x0A;- 0 to play on both loudspeakers.&#x0A;- 1 to play only on the right loudspeaker." id="8" />
@@ -215,7 +215,7 @@ class MyClass(GeneratedClass):
               </Timeline>
               <Resource name="All motors" type="Lock" timeout="3" />
             </Box>
-            <Box name="Guitar" id="4" localization="8" tooltip="ID : #04D 0002&#x0A;&#x0A;===================&#x0A;&#x0A;Tags : &#x0A;- Entertainment&#x0A;- Dances&#x0A;- Headbang" x="197" y="187">
+            <Box name="Guitar" id="4" localization="8" tooltip="ID : #04D 0002&#x0A;&#x0A;===================&#x0A;&#x0A;Tags : &#x0A;- Entertainment&#x0A;- Dances&#x0A;- Headbang" x="551" y="186">
               <bitmap>media/images/box/movement/move.png</bitmap>
               <script language="4">
                 <content>
@@ -2855,6 +2855,7 @@ class MyClass(GeneratedClass):
             <Link inputowner="0" indexofinput="4" outputowner="2" indexofoutput="4" />
             <Link inputowner="1" indexofinput="2" outputowner="0" indexofoutput="2" />
             <Link inputowner="4" indexofinput="2" outputowner="0" indexofoutput="2" />
+            <Link inputowner="4" indexofinput="3" outputowner="1" indexofoutput="4" />
           </Diagram>
         </BehaviorKeyframe>
       </BehaviorLayer>

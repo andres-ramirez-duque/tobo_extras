@@ -7,6 +7,7 @@
     <Dialogs />
     <Resources>
         <File name="epicsax" src="behavior_1/epicsax.ogg" />
+        <File name="epicsax_fadeout" src="epicsax_fadeout.mp3" />
     </Resources>
     <Topics />
     <IgnoredPaths />

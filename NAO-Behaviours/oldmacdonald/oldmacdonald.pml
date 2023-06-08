@@ -6,7 +6,7 @@
     </BehaviorDescriptions>
     <Dialogs />
     <Resources>
-        <File name="old_mcdonald_1m" src="old_mcdonald_1m.mp3" />
+        <File name="old_mcdonald_fadeout" src="old_mcdonald_fadeout.mp3" />
     </Resources>
     <Topics />
     <IgnoredPaths />

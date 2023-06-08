@@ -6,8 +6,8 @@
     </BehaviorDescriptions>
     <Dialogs />
     <Resources>
-        <File name="baby_shark_1m" src="baby_shark_1m.mp3" />
         <File name="elephant" src="behavior_1/elephant.ogg" />
+        <File name="baby_shark_fadeout" src="baby_shark_fadeout.mp3" />
     </Resources>
     <Topics />
     <IgnoredPaths />

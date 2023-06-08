@@ -1149,7 +1149,7 @@ class MyClass(GeneratedClass):
                           <Choice value="contextual" />
                         </Parameter>
                         <Parameter name="Animation" inherits_from_parent="0" content_type="3" value="Stand/Gestures/Hey_2" default_value="" custom_choice="0" tooltip="The animation to play" id="9" />
-                        <Resource name="Speech" type="Lock" timeout="2" />
+                        <Resource name="Speech" type="Lock" timeout="3" />
                       </Box>
                       <Link inputowner="6" indexofinput="2" outputowner="3" indexofoutput="4" />
                       <Link inputowner="14" indexofinput="2" outputowner="13" indexofoutput="4" />
@@ -1168,6 +1168,7 @@ class MyClass(GeneratedClass):
                       <Link inputowner="16" indexofinput="2" outputowner="0" indexofoutput="2" />
                       <Link inputowner="1" indexofinput="2" outputowner="16" indexofoutput="4" />
                       <Link inputowner="5" indexofinput="2" outputowner="16" indexofoutput="4" />
+                      <Link inputowner="14" indexofinput="3" outputowner="1" indexofoutput="4" />
                     </Diagram>
                   </BehaviorKeyframe>
                 </BehaviorLayer>

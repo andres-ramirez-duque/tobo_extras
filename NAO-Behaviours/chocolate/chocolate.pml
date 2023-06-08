@@ -6,7 +6,7 @@
     </BehaviorDescriptions>
     <Dialogs />
     <Resources>
-        <File name="cocoa_breath_1m" src="cocoa_breath_1m.mp3" />
+        <File name="cocoa_breath_fadeout" src="cocoa_breath_fadeout.mp3" />
     </Resources>
     <Topics />
     <IgnoredPaths />

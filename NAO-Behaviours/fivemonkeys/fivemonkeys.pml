@@ -6,8 +6,8 @@
     </BehaviorDescriptions>
     <Dialogs />
     <Resources>
-        <File name="five_monkeys_1m" src="five_monkeys_1m.mp3" />
         <File name="epicsax" src="behavior_1/epicsax.ogg" />
+        <File name="five_monkeys_fadeout" src="five_monkeys_fadeout.mp3" />
     </Resources>
     <Topics />
     <IgnoredPaths />

@@ -6,7 +6,7 @@
     </BehaviorDescriptions>
     <Dialogs />
     <Resources>
-        <File name="happy_and_you_know_1m" src="happy_and_you_know_1m.mp3" />
+        <File name="happy_and_you_know_fadeout" src="happy_and_you_know_fadeout.mp3" />
     </Resources>
     <Topics />
     <IgnoredPaths />

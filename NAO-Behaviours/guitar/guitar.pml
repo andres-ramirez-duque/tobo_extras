@@ -6,7 +6,7 @@
     </BehaviorDescriptions>
     <Dialogs />
     <Resources>
-        <File name="guitar_1m" src="guitar_1m.mp3" />
+        <File name="guitar_fadeout" src="guitar_fadeout.mp3" />
     </Resources>
     <Topics />
     <IgnoredPaths />

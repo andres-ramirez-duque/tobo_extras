@@ -6,7 +6,7 @@
     </BehaviorDescriptions>
     <Dialogs />
     <Resources>
-        <File name="cookie_breath" src="cookie_breath.mp3" />
+        <File name="cookie_fadeout" src="cookie_fadeout.mp3" />
     </Resources>
     <Topics />
     <IgnoredPaths />
