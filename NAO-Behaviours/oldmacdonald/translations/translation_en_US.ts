@@ -9,10 +9,9 @@
             <translation type="vanished">Hello</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Lets sing a song together</source>
             <comment>Text</comment>
-            <translation type="unfinished">Lets sing a song together</translation>
+            <translation type="obsolete">Lets sing a song together</translation>
         </message>
     </context>
 </TS>
