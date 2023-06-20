@@ -6,7 +6,7 @@
     </BehaviorDescriptions>
     <Dialogs />
     <Resources>
-        <File name="Techno" src="Techno.mp3" />
+        <File name="techno_fadeout" src="techno_fadeout.mp3" />
     </Resources>
     <Topics />
     <IgnoredPaths />
